@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>PokéMon</title>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  </head>
+  <body class="container">
+
+    <!-------------  Start Navbar ------------------->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark " id="nav">
+      <a class="navbar-brand" href="index.html"><img
+          src="images/master-ball.png">
+        Haskell Mackowski</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"
+              id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="images/pokeball.png">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> Pikachu</a>
+              <a class="dropdown-item" href="#"> Eevee</a>
+              <a class="dropdown-item" href="#"> Wartortle</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-------------  End Navbar ------------------->
+
+    <!-- Bootstrap Grid -->
+
+    <div id="gridDiv" class="container">
+      <div class="row center-grid">
+        <div class="col-lg-12 bg-dark center-grid">
+
+          <!-- Start Form -->
+          <form class="row col-lg-8 justify-content-center">
+            <h2 id="formH2" class="row col-lg-12 center-grid"
+              style="color:white">Contact
+              Form</h2>
+
+            <div class="row center-grid col-lg-4">
+              <label for="firstName">First Name:</label>
+              <input type="text" class="form-control" id="firstName"
+                placeholder="Enter your first name">
+            </div>
+
+            <div class="row center-grid col-lg-4">
+              <label for="lastName">Last Name:</label>
+              <input type="text" class="form-control" id="lastName"
+                placeholder="Enter your last name">
+            </div>
+
+            <div class="row center-grid col-lg-8">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email"
+                placeholder="Enter your email">
+            </div>
+
+            <div class="row center-grid col-lg-8">
+              <label for="note">Note:</label>
+              <textarea class="form-control" id="note" rows="3"
+                placeholder="Enter your note"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary col-sm-11 col-md-4 "
+              id="form-submit">Submit</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-------------  End Form ------------------->
+
+    <div class="row center-grid">
+
+      <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="images/2b1dfec19b945a19ac39641278a6a799.jpg" alt
+          class="img-thumbnail">
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="images/pokemon-unite-key-art-banner.jpg" alt
+          class="img-thumbnail">
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="images/billions-of-pokemon.avif" alt class="img-thumbnail">
+      </div>
+    </div>
+
+    <div class="row center-grid">
+      <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="images/pokemon-blog-image.png" alt class="img-thumbnail">
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="images/pokemon_pikachu_banner_by_zicouxd_de9vssx-pre.jpg"
+          alt class="img-thumbnail">
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="images//Pokemon-Featured.jpg" alt class="img-thumbnail">
+      </div>
+
+    </div>
+
+    <!-- Start Footer -->
+    <center>
+      <footer class="footer">
+        <center><div class="socials">
+            <a class="github" href="https://github.com/hmackowski"></a>
+            <a class="linkedIn" href="https://www.linkedin.com/in/hmackowski/"></a>
+          </div></center>
+        <div class="copyright">
+          <p class="copyR">&copy; 2023 Haskell Mackowski. All rights reserved.</p>
+        </div>
+      </footer>
+    </center>
+
+    <!-- End Footer -->
+    <!--
+    <div>
+      <div class="alert alert-warning alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        <strong>Warning!</strong>
+      </div>
+    </div>
+-->
+
+  </body>
+</html>

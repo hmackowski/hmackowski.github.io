@@ -1,0 +1,136 @@
+#nav {
+    border-radius: 15px;
+}
+
+.page-content {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #3e4246;
+    border-radius: 15px;
+
+}
+
+.card {
+    border-radius: 25px;
+}
+
+.card img {
+    border-radius: 25px;
+}
+
+.card img:hover {
+    filter: blur(3px);
+}
+
+.footer {
+    background-color: #2b2d30;
+    color: white;
+    height: 80px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.copyright {
+    width: 100%;
+}
+
+.socials img {
+    padding: 5px;
+}
+
+.github {
+    display: block;
+    background-image: url(images/github.png);
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.github:hover {
+    background-image: url(images/github2.png);
+}
+
+.linkedIn {
+    display: block;
+    background-image: url(images/linkedIn.png);
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.linkedIn:hover {
+    background-image: url(images/linkedIn2.png);
+}
+
+.socials img {
+    padding: 5px;
+}
+
+#carouselExample img {
+    height: 200;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+    filter: invert(100%);
+
+}
+
+.carButton {
+
+    padding: 2px;
+    margin: 5px;
+}
+
+.form-container {
+    width: 50%;
+    padding: 20px;
+    color: white;
+}
+
+.grid-container {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.row div {
+    background-color: #b3b9c0;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #080808;
+    margin: 5px;
+    padding: 10px;
+    outline: 2px solid #ccc;
+    outline-offset: -10px;
+
+}
+
+.center-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    margin: 20px;
+    border: 2px solid rgb(204, 199, 199);
+
+}
+
+.formH2 {
+    color: white;
+}
