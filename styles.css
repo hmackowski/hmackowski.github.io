@@ -81,6 +81,10 @@
     filter: invert(100%);
 }
 
+.carousel-container {
+    margin-top: 10px;
+}
+
 .carousel-indicators {
     filter: invert(100%);
 
