@@ -156,3 +156,16 @@
     align-items: center;
     
 }
+#logo-container{
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+#logo-container img{
+    background-color: #ffffff;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(56, 56, 56);
+}
