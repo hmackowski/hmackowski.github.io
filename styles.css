@@ -19,6 +19,7 @@
 
 .card img {
     border-radius: 25px;
+    padding:5px
 }
 
 .card img:hover {
@@ -90,6 +91,11 @@
 
 }
 
+#code {
+    filter:invert(0%)
+
+}
+
 .carButton {
 
     padding: 2px;
@@ -137,4 +143,16 @@
 
 .formH2 {
     color: white;
+}
+
+.navbar img{
+    margin-right: 20px;
+    height: 50px;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
