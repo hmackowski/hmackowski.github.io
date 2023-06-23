@@ -124,7 +124,7 @@ async function getPokemon(num) {
       // Create the card inside this done function
       $(document).ready(function () {
         // Create a card element
-        var card = $("<div>").addClass("card col-3").css("width", "18rem");
+        var card = $("<div>").addClass("card").css("width", "18rem");
 
         // Create and add classes and attributes to the card elements
         let cardImg = $("<img>")
